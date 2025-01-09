@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Form - Part 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <!-- Checkbox and Radio Buttons Section -->
+        <fieldset>
+            <legend>Checkbox and Radio Buttons</legend>
+
+            <p><strong>Checkbox:</strong></p>
+            <label>
+                <input type="checkbox" id="terms-checkbox">
+                I agree to the terms and conditions
+            </label><br>
+
+            <label>
+                <input type="checkbox" id="environment-checkbox">
+                I am enjoying the conducive environment
+            </label><br><br>
+
+            <p><strong>Radio Buttons:</strong></p>
+            <label>
+                <input type="radio" name="gender" value="male"> Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female"> Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other"> Other
+            </label>
+        </fieldset>
+
+        <!-- Textarea Section -->
+        <fieldset>
+            <legend>Textarea</legend>
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" rows="5" cols="50" placeholder="Write your comments here..."></textarea>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
